@@ -6,7 +6,7 @@ In order to prevent non-humans from seeing a personal email address.
 ## Usage
 _request_   
 ```  
-POST /v1/email?token=<reCAPTCHA token>   
+GET /v1/email?token=<reCAPTCHA token>   
 ```     
 
 _respose_
