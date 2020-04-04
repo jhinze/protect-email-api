@@ -18,7 +18,7 @@ _respose_
 
 ## Required Environment Variables
 `RECAPTCHA_SECRET=<reCAPTCHA secret>`   
-`PROTECTED_EMAIL=<email to returnn>`
+`PROTECTED_EMAIL=<email to return>`
 
 ## Docker
 `docker run -p <port>:80 -e RECAPTCHA_SECRET=<reCAPTCHA secret> -e PROTECTED_EMAIL=<email to return> jhinze/protect-email-api`
