@@ -21,4 +21,4 @@ _respose_
 `PROTECTED_EMAIL=<email to returnn>`
 
 ## Docker
-`docker run -p <port>:80 -e RECAPTCHA_SECRET=<reCAPTCHA secret> -e PROTECTED_EMAIL=<email to returnn> jhinze/protect-email-api`
+`docker run -p <port>:80 -e RECAPTCHA_SECRET=<reCAPTCHA secret> -e PROTECTED_EMAIL=<email to return> jhinze/protect-email-api`
